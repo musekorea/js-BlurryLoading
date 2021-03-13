@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  width: 100vw;
+  height: 100vh;
+  filter: blur(0px);
+  z-index: -1;
+}
+h1 {
+  position: absolute;
+  color: white;
+  opacity: 1;
+}
